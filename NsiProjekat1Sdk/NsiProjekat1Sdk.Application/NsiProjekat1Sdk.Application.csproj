@@ -5,20 +5,28 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <PackageId>NsiProjekat1Sdk.Application</PackageId>
-        <Version>0.0.1</Version>
+        <Version>0.0.2</Version>
         <Authors>dusanM</Authors>
         <Company>dusanM</Company>
         <PackageDescription>
             SDK for Projekat
         </PackageDescription>
         <PackageReleaseNotes>
+            v.0.0.2
+            - Initial release fix
+            
             v.0.0.1
             - Initial release
         </PackageReleaseNotes>
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\NsiProjekat1Sdk.Sdk\NsiProjekat1Sdk.Sdk.csproj" />
+        <Folder Include="Enums\" />
+        <Folder Include="Exceptions\" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <ProjectReference Include="..\NsiProjekat1Sdk.Sdk\NsiProjekat1Sdk.Sdk.csproj" PrivateAssets="All" />
     </ItemGroup>
     
     <PropertyGroup>
