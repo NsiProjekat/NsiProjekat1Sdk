@@ -11,6 +11,11 @@ public class NsiProjekat1SdkClient(INsiProjekat1SdkApi api) : INsiProjekat1SdkCl
         var result = await api.CreateProductAsync(request.ToDto(), request.Headers);
         return result.ToModel();
     }
+    public async Task<NsiProjekat1SdkCompanyCreateResponseModel> CreateCompanyAsync(NsiProjekat1SdkCompanyRequestModel request)
+    {
+        var result = await api.CreateCompanyAsync(request.ToDto(), request.Headers);
+        return result.ToModel();
+    }
     
     
 }
