@@ -5,13 +5,16 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <PackageId>NsiProjekat1Sdk.Application</PackageId>
-        <Version>0.0.3</Version>
+        <Version>0.0.4</Version>
         <Authors>dusanM</Authors>
         <Company>dusanM</Company>
         <PackageDescription>
             SDK for Projekat
         </PackageDescription>
         <PackageReleaseNotes>
+            v.0.0.4
+            - Added Company fix
+            
             v.0.0.3
             - Added Company
 
